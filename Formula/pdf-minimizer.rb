@@ -1,26 +1,26 @@
 class PdfMinimizer < Formula
   desc "CLI PDF compressor for scanned documents"
   homepage "https://github.com/moujahedkhouja/pdf-minimizer"
-  version "0.1.2"
+  version "0.1.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.2/pdf-minimizer-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "0e0f95f6fb042f2db79f8f0aaa383dcf6a5f6cc423b8c4ae266e8dcc5290572a"
+      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.3/pdf-minimizer-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "c600b7cbaf9f16353caa55a1094598dc382cac69ffe0eb8a4eed3cc1bc56616e"
     else
-      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.2/pdf-minimizer-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "24433f65c8dac0cf2643939a7ac8e82b6c26b1d02a56c677a81febdd1ca0a221"
+      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.3/pdf-minimizer-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "33079d5f0976e2507041e64652ddcb67ec9a862721ab5faff8bca53ca6213169"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.2/pdf-minimizer-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "94d6880068d808c4bf670f7437b468f353e076bf7e50daacdd10efb8ed20f9e7"
+      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.3/pdf-minimizer-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2919e24be7b25482d1d09b4aa8b683d498aef65091bce7294c7767e0748e5ed0"
     else
-      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.2/pdf-minimizer-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a465902b0e4d4b2ba1007961d6679870ab4d8866cb31d207b83fbae17978c5c7"
+      url "https://github.com/moujahedkhouja/pdf-minimizer/releases/download/v0.1.3/pdf-minimizer-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ced8e8ecc314d745457081907653b413437e8b40beb75f3e50e728218a59e4e7"
     end
   end
 
